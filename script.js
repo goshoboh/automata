@@ -1,11 +1,7 @@
-/**
- * 設定
- * GAS_WEB_APP_URL: デプロイしたGASウェブアプリのURLを入力してください。
- * MOCK_MODE: trueにすると、GASに接続せずにテストデータで動作確認できます。
- */
+
 const CONFIG = {
     GAS_WEB_APP_URL: 'https://script.google.com/macros/s/AKfycbxHdCz8ypy_aBeYztPDif1VJ2flyla_zMtWxvvrNSwCuWGD6oxuYaaBEB6TAEByVEvMMw/exec', // ここにGASのURLを貼り付け
-    MOCK_MODE: false // 本番稼働時は false に変更
+    MOCK_MODE: false // false：本番稼働時　true：テスト動作確認
 };
 
 // DOM要素の取得
